@@ -6,14 +6,8 @@ Will include basic navigations, modules, custom directive for common use
 
 ## How To Use?
 Open Visual Studio as **administrator**,
-and then open the project
-Views would be in the folder `../App/Views/ViewName`
-including HTML and JS file,
+and then open the project and run.
 
-make sure you add a reference in the 'Index.html' file
-
-
-each Js file is a controller used by the `ng-view` directive (angularjs-route)
 
 ## Current Version:
 * Main view:
