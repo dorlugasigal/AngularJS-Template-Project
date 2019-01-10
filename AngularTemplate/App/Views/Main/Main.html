@@ -1,0 +1,11 @@
+﻿<div>
+    Main
+    <!--<div style="display:flex;width:50%;background-color:darkgray;flex-direction:column;">-->
+    <button type="button" style="width:300px;" class="btn btn-primary" ng-click="vm.TestWithParameter()" ng-disabled="!vm.InputValue">GetAnswerFromServer</button>
+    <input type="text" style="width:300px;" placeholder="Enter Parameter Here" ng-model="vm.InputValue">
+
+    <div ng-show="vm.ReturnedValue" style="width:300px;">
+        echo: {{vm.ReturnedValue}}
+
+    </div>
+</div>

@@ -1,0 +1,20 @@
+﻿html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+    display:flex;
+    width:100%;
+}
+
+#mainContent {
+    flex:1;
+    padding: 10px;
+    background-color: gray;
+    padding-bottom: 30px; /* Height of the footer */
+}
