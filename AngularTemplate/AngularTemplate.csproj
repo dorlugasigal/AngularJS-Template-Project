@@ -88,6 +88,7 @@
     <Content Include="App\Scripts\Plugins\bootstrap.min.css" />
     <Content Include="App\Scripts\Plugins\bootstrap.min.js" />
     <Content Include="App\Scripts\Plugins\jquery-3.3.1.min.js" />
+    <Content Include="App\Scripts\Plugins\sweetalert2.all.min.js" />
     <Content Include="App\Services\httpService.js" />
     <Content Include="App\Styles\AppStyle.css" />
     <Content Include="App\Views\OtherView\OtherView.html" />
