@@ -5,18 +5,26 @@
     <title>AngularTemplate</title>
     <script src="App/Scripts/Plugins/angular.min.js"></script>
     <script src="App/Scripts/Plugins/angular-route.min.js"></script>
+    <script src="App/Scripts/Plugins/angular-animate.min.js"></script>
 
     <script src="App/Scripts/Plugins/jquery-3.3.1.min.js"></script>
     <script src="App/Scripts/Plugins/bootstrap.min.js"></script>
     <link href="App/Scripts/Plugins/bootstrap.min.css" rel="stylesheet" />
     <script src="App/Scripts/Plugins/sweetalert2.all.min.js"></script>
+
+
     <script src="App/App.js"></script>
+    <link href="App/Styles/animate.css" rel="stylesheet" />
+    <script src="App/Directives/Toasty/ToastyService.js"></script>
+    <script src="App/Directives/Toasty/Toasty.js"></script>
+
     <script src="App/Scripts/route.config.js"></script>
     <script src="App/Views/Main/Main.js"></script>
     <script src="App/Views/OtherView/OtherView.js"></script>
     <script src="App/Services/httpService.js"></script>
 
     <link href="App/Styles/AppStyle.css" rel="stylesheet" />
+    <link href="App/Styles/ToastyStyle.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
@@ -44,5 +52,6 @@
             <ng-view></ng-view>
         </div>
     </div>
+    <toasty-container></toasty-container>
 </body>
 </html>

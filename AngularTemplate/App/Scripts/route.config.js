@@ -1,4 +1,4 @@
-﻿App.config(['$locationProvider', '$routeProvider',
+﻿app.config(['$locationProvider', '$routeProvider',
     function config($locationProvider, $routeProvider) {
         $locationProvider.hashPrefix('');
 

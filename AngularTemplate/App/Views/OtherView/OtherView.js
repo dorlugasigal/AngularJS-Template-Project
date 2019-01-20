@@ -1,4 +1,4 @@
-﻿App.controller("OtherView", function ($scope) {
+﻿app.controller("OtherView", function ($scope,toasty) {
     var vm = this;
 
     vm.Test = function () {
@@ -46,4 +46,33 @@
         });
     };
 
+
+    vm.showSuccessToasty = function () {
+        toasty.pop.success({
+            timeout: 3000,
+            title: 'Incoming Message',
+            msg: 'Success'
+        });
+    }
+    vm.showInfoToasty = function () {
+        toasty.pop.info({
+            timeout: 3000,
+            title: 'Incoming Message',
+            msg: 'info'
+        });
+    }
+    vm.showErrorToasty = function () {
+        toasty.pop.error({
+            timeout: 3000,
+            title: 'Incoming Message',
+            msg: 'error'
+        });
+    }
+    vm.showWarningToasty = function () {
+        toasty.pop.warning({
+            timeout: 3000,
+            title: 'Incoming Message',
+            msg: 'warning'
+        });
+    }
 });

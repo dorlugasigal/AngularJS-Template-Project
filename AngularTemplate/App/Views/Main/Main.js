@@ -1,4 +1,4 @@
-﻿App.controller("Main", function ($scope, $http, httpService) {
+﻿app.controller("Main", function ($scope, httpService) {
     var vm = this;
 
     vm.Test = function () {

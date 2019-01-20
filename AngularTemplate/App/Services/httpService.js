@@ -1,4 +1,4 @@
-﻿App.service("httpService", function ($http, $rootScope, $location) {
+﻿app.service("httpService", function ($http, $rootScope, $location) {
     function IsDevMode() {
         if ($location.$$absUrl.indexOf("localhost") > -1) {
             $rootScope.IsDevMode = true;

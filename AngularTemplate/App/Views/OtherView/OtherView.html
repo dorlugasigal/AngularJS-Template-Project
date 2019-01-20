@@ -1,11 +1,18 @@
 ﻿<div>
 
-    <div style="margin:10px;">
-        <button type="button" style="width:300px;" class="btn btn-primary" ng-click="vm.ShowSweetAlert()">Simple SweetAlert</button>
-    </div>
+    <div style="display:flex;">
 
-    <div style="margin:10px;">
-        <button type="button" style="width:300px;" class="btn btn-primary" ng-click="vm.Show2SweetAlert()">Two SweetAlert in a row!</button>
+        <div class="box-content" style="height: 150px;">
+            <button type="button" style="margin:5px; width:100%;" class="btn btn-primary" ng-click="vm.ShowSweetAlert()">Simple SweetAlert</button>
+            <button type="button" style="margin:5px; width:100%;" class="btn btn-primary" ng-click="vm.Show2SweetAlert()">Two SweetAlert in a row!</button>
+        </div>
+
+        <div class="box-content">
+            <button type="button" style="margin:5px; width:100%;" class="btn btn-danger" ng-click="vm.showErrorToasty()" >Error Toast</button>
+            <button type="button" style="margin:5px; width:100%;" class="btn btn-info" ng-click="vm.showInfoToasty()" >Info Toast</button>
+            <button type="button" style="margin:5px; width:100%;" class="btn btn-success" ng-click="vm.showSuccessToasty()" >Success Toast</button>
+            <button type="button" style="margin:5px; width:100%;" class="btn btn-warning" ng-click="vm.showWarningToasty()" >warning Toast</button>
+        </div>
     </div>
 
 </div>

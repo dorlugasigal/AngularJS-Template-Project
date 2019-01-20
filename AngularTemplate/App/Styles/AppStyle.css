@@ -8,13 +8,24 @@ body {
 #container {
     min-height: 100%;
     position: relative;
-    display:flex;
-    width:100%;
+    display: flex;
+    width: 100%;
 }
 
 #mainContent {
-    flex:1;
+    flex: 1;
     padding: 10px;
     background-color: gray;
     padding-bottom: 30px; /* Height of the footer */
+}
+
+.box-content {
+    width: 25%;
+    display: flex;
+    flex: 0 50%;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 0px 0px 40px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 40px 7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 40px 7px rgba(0,0,0,0.75);
+    margin:50px;
 }

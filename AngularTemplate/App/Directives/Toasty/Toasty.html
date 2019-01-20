@@ -1,0 +1,16 @@
+﻿<div class="toasty-container no-select">
+    <div class="toasty-box bounceInToasty fadeOutToasty" ng-repeat="msg in messages" ng-click="hideMessage(msg,$event)">
+        <div class="toasty-icon-box" ng-class="'toasty-icon-box-'+msg.type">
+            <i class="fas fa-exclamation-triangle toasty-icon" ng-if="msg.type=='warning'"></i>
+            <i class="fas fa-check toasty-icon" ng-if="msg.type=='success'"></i>
+            <i class="fas fa-times toasty-icon" ng-if="msg.type=='error'"></i>
+            <i class="fas fa-info-circle toasty-icon" ng-if="msg.type=='info' ||!msg.type"></i>
+        </div>
+        <div class="toasty-content">
+            {{msg.title}}
+            <div class="toasty-message">
+                {{msg.msg}}
+            </div>
+        </div>
+    </div>
+</div>

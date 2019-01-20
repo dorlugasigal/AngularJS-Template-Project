@@ -1,0 +1,73 @@
+﻿.toasty-container {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    padding: 7px;
+}
+
+.toasty-box {
+    border-radius: 5px;
+    min-width: 350px;
+    min-height: 68px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    max-width: 350px;
+    box-shadow: 0 0 9px 1px rgba(0,0,0,0.5);
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.toasty-icon-box {
+    background-color: #607d8b;
+    width: 90px;
+    left: 0px;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    min-height: 68px;
+}
+
+.toasty-icon-box-error {
+    background-color: #dc3545;
+}
+
+.toasty-icon-box-success {
+    background-color: #009688;
+}
+
+.toasty-icon-box-warning {
+    background-color: #ff9800;
+}
+
+.toasty-icon {
+    margin: auto;
+    color: white;
+    font-size: 25px;
+}
+
+.toasty-content {
+    flex: 1;
+    color: white;
+    font-weight: bold;
+    line-height: 2;
+    padding: 10px;
+    padding-bottom: 17px;
+}
+
+.toasty-message {
+    line-height: 1;
+    font-weight: 100;
+}
+
+.bounceInToasty.ng-enter {
+    -webkit-animation-duration: .75s;
+    -webkit-animation-name: bounceIn;
+    animation-duration: .75s;
+    animation-name: bounceIn;
+}
+
+.fadeOutToasty.ng-leave {
+    -webkit-animation-duration: .75s;
+    -webkit-animation-name: fadeOut;
+    animation-duration: .75s;
+    animation-name: fadeOut;
+}
