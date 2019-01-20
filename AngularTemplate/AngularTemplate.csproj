@@ -95,6 +95,7 @@
     <Content Include="App\Services\httpService.js" />
     <Content Include="App\Styles\animate.css" />
     <Content Include="App\Styles\AppStyle.css" />
+    <Content Include="App\Styles\D.png" />
     <Content Include="App\Styles\ToastyStyle.css" />
     <Content Include="App\Views\OtherView\OtherView.html" />
     <Content Include="App\Views\OtherView\OtherView.js" />
