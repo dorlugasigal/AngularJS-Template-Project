@@ -22,7 +22,7 @@ and then open the project and run.
 - [x] Jquery 3.3.1
 - [x] AngularJs 1.7.5
 - [x] SweetAlert2
-- [ ] build & add a toast notifications directive
+- [x] build & add a toast notifications directive
 - [ ] build & add a files upload directive
 - [ ] Work on a responsive layout
 - [ ] add an Admin Section with different routes 
